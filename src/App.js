@@ -9,10 +9,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage/>}/>
         <Route path="/quiz" element={<Quiz/>}/>
-        {/* <Route path="register" element={<Register/>}/> */}
-        {/* <Route path="dashboard" element={<Dashboard/>}/>
-        <Route path="pesan/:id" element={<Dashboard/>}/> */}
-        {/* <Route path="edit/:id" element={<EditFood/>}/> */}
       </Routes>
     </BrowserRouter>
   );
