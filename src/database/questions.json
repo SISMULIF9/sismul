@@ -1,0 +1,25 @@
+[
+    {
+      "question": "Apa judul lagu daerah yang berasal dari Sumatera Utara?",
+      "choices": ["Rasa Sayange", "Soloku", "Lir Ilir", "Es Lilin"],
+      "answer": "Soloku"
+    },
+    {
+      "question": "Lagu \"Rasa Sayange\" berasal dari daerah mana?",
+      "choices": ["Bali", "Sumatera Utara", "Jawa Tengah", "Kalimantan Barat"],
+      "answer": "Bali",
+      "audioSrc": "/audio/Test2.mp3"
+    },
+    {
+      "question": "Apa judul lagu daerah yang berasal dari Jawa Tengah?",
+      "videoUrl": "https://www.youtube.com/embed/ayRrrRBHkDg?start=20&end=40&controls=0&mute=1",
+      "choices": ["Es Lilin", "Lir Ilir", "Apuse", "Rasa Sayange"],
+      "answer": "Lir Ilir"
+    },
+    {
+      "question": "Lagu \"Apuse\" merupakan lagu daerah dari provinsi mana?",
+      "choices": ["Maluku", "Papua", "Nusa Tenggara Barat", "Nusa Tenggara Timur"],
+      "answer": "Nusa Tenggara Barat"
+    }
+  ]
+  

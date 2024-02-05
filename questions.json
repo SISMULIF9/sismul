@@ -1,0 +1,83 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question": "Apa judul lagu daerah yang berasal dari Sumatera Utara?",
+      "videoUrl": "",
+      "choices": [
+        "Rasa Sayange",
+        "Soloku",
+        "Lir Ilir",
+        "Es Lilin"
+      ],
+      "answer": "Soloku",
+      "audioSrc": ""
+    },
+    {
+      "id": 1,
+      "question": "Lagu \"Rasa Sayange\" berasal dari daerah mana?",
+      "videoUrl": "",
+      "choices": [
+        "Bali",
+        "Sumatera Utara",
+        "Jawa Tengah",
+        "Kalimantan Barat"
+      ],
+      "answer": "Bali",
+      "audioSrc": "./audio/Test2.mp3"
+    },
+    {
+      "id": 2,
+      "question": "Apa judul lagu daerah yang berasal dari Jawa Tengah?",
+      "videoUrl": "",
+      "choices": [
+        "Es Lilin",
+        "Lir Ilir",
+        "Apuse",
+        "Rasa Sayange"
+      ],
+      "answer": "Lir Ilir",
+      "audioSrc": ""
+    },
+    {
+      "id": 3,
+      "question": "Lagu \"Apuse\" merupakan lagu daerah dari provinsi mana?",
+      "videoUrl": "https://www.youtube.com/embed/ayRrrRBHkDg?si=mnmFp1LapJRiLyej&amp;start=15&autoplay=1",
+      "choices": [
+        "Maluku",
+        "Papua",
+        "Nusa Tenggara Barat",
+        "Nusa Tenggara Timur"
+      ],
+      "answer": "Papua",
+      "audioSrc": ""
+    }
+  ],
+  "scores": [
+    {
+      "id": 1,
+      "nama": "tedi",
+      "score": 0
+    },
+    {
+      "id": 2,
+      "nama": "atun",
+      "score": 20
+    },
+    {
+      "nama": "rika",
+      "id": 3,
+      "score": 50
+    },
+    {
+      "nama": "gatau",
+      "id": 4,
+      "score": 3
+    },
+    {
+      "nama": "coba",
+      "id": 5,
+      "score": 30
+    }
+  ]
+}
