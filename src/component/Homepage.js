@@ -1,26 +1,13 @@
 import React, { useEffect, useState, useRef } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import ReactAudioPlayer from 'react-audio-player';
+import gambar from "../img/header1.svg";
 
 const Quiz = () =>{
     const navigate = useNavigate();
-
-    const [questions, setQuestions] = useState();
-    const [answeredQuestions, setAnsweredQuestions] = useState([]);
-    const [selectedAnswer, setSelectedAnswer] = useState(null);
-    const [correctAnswer, setCorrectAnswer] = useState(null);
     const [nama, setUser] = useState("");
     const [score, setScore] = useState();
     const [allScores, setAllScores] = useState([]);
-
-    const arraySize = 4;
-    const array = Array.from({ length: arraySize }, (_, index) => index);
-    const initializedRef = useRef(false);
-    const iRef = useRef(0);
-
-    const user = localStorage.getItem('user');
-    // const nama = JSON.parse(user);
     
     useEffect(() => {
         getAllPrevScore();
@@ -67,9 +54,18 @@ const Quiz = () =>{
     return (
         <section className="bg-white-50 dark:bg-white-900">
         <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
+        <image src="img/header1.svg" width="500px"/>
           <div className="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-gray">
             Kuis Tebak Lagu Daerah
             </div> 
+
+            <div class=" ">
+              <div class="header-image">
+                <image src="/img/header1.svg" width="500px"/>
+                <image src="/img/5.png" width="500px"/>
+                <image src={gambar} width="500px"/>
+              </div>
+            </div>
             <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-white-100 dark:border-gray-700">
                 <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
                   <div className="grid grid-cols-2	">

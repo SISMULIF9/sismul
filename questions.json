@@ -70,14 +70,38 @@
       "score": 50
     },
     {
-      "nama": "gatau",
+      "nama": "arka",
       "id": 4,
-      "score": 3
+      "score": 100
     },
     {
-      "nama": "coba",
+      "nama": "sismul",
       "id": 5,
-      "score": 30
+      "score": 80
+    },
+    {
+      "nama": "renaldi",
+      "id": 6,
+      "score": 40
+    },
+    {
+      "nama": "nanda",
+      "id": 7,
+      "score": 50
+    },
+    {
+      "nama": "syifa",
+      "id": 8,
+      "score": 70
+    },
+    {
+      "nama": "rendi",
+      "id": 9,
+      "score": 10
+    },
+    {
+      "nama": "renaldi",
+      "id": 10
     }
   ]
 }
